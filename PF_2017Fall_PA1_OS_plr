@@ -1,0 +1,34 @@
+# Course Code: SODV1101
+#Semester / Year: 2017Fall
+# Assignment Code: PA1
+# Author: Oswaldo Salazar
+# ID: 382911
+# Date Created: 2017-09-30
+# Description: Python Code
+
+# This program translates the quantity of steps walked by a user on a given day,
+# into miles and calories lost.
+
+# Variable Declarations: All variables are declared where initially called
+
+# Data input from the user
+
+
+dayOfWeek = input("Enter the day of the week ")
+stepsTaken = int(input
+                 ("Enter the number of steps reported on the pedometer "))
+
+# Calculation of variables
+
+
+milesWalked = float(stepsTaken/2000)
+caloriesLost = float(milesWalked*65)
+
+# Display of data calculated for the day entered
+
+
+print ("The following is data for", dayOfWeek)
+print (stepsTaken, "steps resulted in ", milesWalked, " miles walked, and",
+       caloriesLost, "calories lost.")
+
+ 
